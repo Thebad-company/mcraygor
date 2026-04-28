@@ -43,8 +43,8 @@ const clients = [
 
 function ClientCard({ name, type, logo }: { name: string; type: string; logo: string }) {
   return (
-    <div className="flex-shrink-0 mx-2 md:mx-4 bg-white border border-gray-100 shadow-sm px-6 py-4 md:px-12 md:py-10 flex flex-col items-center justify-center w-[160px] h-[100px] md:w-[400px] md:h-[240px] hover:shadow-md transition-shadow">
-      <div className="w-24 h-16 md:w-56 md:h-40 flex items-center justify-center">
+    <div className="flex-shrink-0 mx-2 md:mx-4 bg-white border border-gray-100 shadow-sm px-4 py-3 md:px-8 md:py-6 flex flex-col items-center justify-center w-[160px] h-[100px] md:w-[400px] md:h-[240px] hover:shadow-md transition-shadow">
+      <div className="w-32 h-20 md:w-80 md:h-48 flex items-center justify-center">
         <img 
           src={logo} 
           alt={`McRAYGOR Client: ${name} logo`} 
