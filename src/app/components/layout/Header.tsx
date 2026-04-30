@@ -123,8 +123,8 @@ export function Header() {
       {/* Main Header Row */}
       <div className="max-w-[1700px] mx-auto px-4 md:px-6 flex items-center justify-between gap-4 lg:gap-8">
         {/* Left: Logo */}
-        <div className="flex items-center gap-4 md:gap-6 py-2">
-          <Link to="/" className="flex-shrink-0 flex items-center">
+        <div className="flex-shrink-0 flex items-center gap-4 md:gap-6 py-2">
+          <Link to="/" className="flex items-center">
             <img
               src={logoImg}
               alt="McRAYGOR Mechanicals Infrastructure"
